@@ -5,8 +5,14 @@ const Sharesult = () => {
     const router = useRouter();
     return (
         <Layout>
-            <h1>{router.query.sha}</h1>
-            <p>Sha Result for your words</p>
+            <h2>{router.query.sha}</h2>
+            <p>Sha Result for your words. Keep them handy !</p>
+            <style jsx>{`
+                h2,
+                a {
+                font-family: 'Arial';
+                }
+            `}</style>
         </Layout>
     );
 } 
