@@ -1,4 +1,4 @@
-export default () => (
+const Button = () => (
     <div>
         <button className="btn">Sha</button>
         <style jsx>{
@@ -18,3 +18,5 @@ export default () => (
                 }</style>
     </div>
 );
+
+export default Button;
